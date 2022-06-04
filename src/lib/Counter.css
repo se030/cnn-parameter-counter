@@ -17,11 +17,14 @@ h1 {
     column-gap: 30px;
 }
 
-.layers {
+.layers, .results {
     width: 400px;
     display: flex;
     flex-direction: column;
     row-gap: 25px;
+}
+.results {
+    padding-top: 100px;
 }
 
 .buttons {
@@ -39,8 +42,4 @@ h1 {
 }
 .buttons button:hover {
     transform: scale(1.05);
-}
-
-.results {
-    width: 400px;;
 }
